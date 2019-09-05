@@ -11,11 +11,10 @@ namespace Task_1._2
         static void Main(string[] args)
         {
             Console.WriteLine("Please, enter your name");
-            String name = Console.ReadLine();
+            string name = Console.ReadLine();
             Console.WriteLine("Hello, " + name);
-
-       
-        Console.ReadKey();
+            
+            Console.ReadKey();
         }
     }
 }
