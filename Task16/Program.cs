@@ -12,19 +12,12 @@ namespace Task16
         {
             Console.WriteLine("Enter yuor name");
             string s = Console.ReadLine();
-            if (s.Contains("a"))
-            {
-                s = s.Replace("a", "*");
-            }
-            
-            if (s.Contains("o"))
-            {
-                s = s.Replace("o", "*");
-            }
-            if (s.Contains("i"))
-            {
-              s = s.Replace("i", "*");
-            }
+
+            s = s.Replace("a", "*");
+
+            s = s.Replace("o", "*");
+
+            s = s.Replace("i", "*");
 
             Console.WriteLine(s);
 
