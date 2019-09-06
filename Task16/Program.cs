@@ -12,13 +12,18 @@ namespace Task16
         {
             Console.WriteLine("Enter yuor name");
             string s = Console.ReadLine();
+            if (s == null)
+            {
+                Console.WriteLine("You didnt input your name");
+            }
+            else
+            {
+                s = s.Replace("a", "*");
 
-            s = s.Replace("a", "*");
+                s = s.Replace("o", "*");
 
-            s = s.Replace("o", "*");
-
-            s = s.Replace("i", "*");
-
+                s = s.Replace("i", "*");
+            }
             Console.WriteLine(s);
 
             Console.ReadKey();

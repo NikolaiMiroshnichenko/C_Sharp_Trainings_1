@@ -11,24 +11,32 @@ namespace Task20
         static void Main(string[] args)
         {
             int[] arr = new int[5];
-            int i;
-            int sum = 0;
-            int mathMiddle;
-            for (i = 0; i < 5; i++)
+
+            for (int i = 0; i < 5; i++)
             {
                 Console.Write(i + " element is: ");
-                arr[i] = int.Parse(Console.ReadLine());
+                if (int.TryParse(Console.ReadLine(), out arr[i]))
+                {
+                }
+                else
+                {
+                    Console.WriteLine("Wrong input element № " + i);
+                    i--;
+                }
             }
+
             foreach (int n in arr)
             {
                 Console.WriteLine(n);
             }
 
-            for (i = 0; i < 5; i++)
+            int sum = 0;
+            for (int i = 0; i < 5; i++)
             {
                 sum = sum + arr[i];
             }
-            mathMiddle = sum / arr.Length;
+
+            int mathMiddle = sum / arr.Length;
             Console.WriteLine(sum);
 
             Console.WriteLine("Arithmetic average is: " + mathMiddle);

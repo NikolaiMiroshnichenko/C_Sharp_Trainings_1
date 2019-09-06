@@ -15,22 +15,28 @@ namespace Task17
             Console.WriteLine("Confirm your password");
             String password2 = Console.ReadLine();
             int i = 0;
-            if (password1.Equals(password2))
+            if ((password1.Contains(" ") | (password1.Contains(" "))))
             {
-
-                while (i < password1.Length)
-                {
-                    password1 = password1.Replace(password1[i], '*');
-                    i++;
-                }
-
-                Console.WriteLine("Success. Your password is " + password1);
+                Console.WriteLine("Password may not contain numspace");
             }
             else
             {
-                Console.WriteLine("Please, check you password. It doesn’t match");
-            }
+                if (password1.Equals(password2) && (password1 != null) && (password1 != null))
+                {
 
+                    while (i < password1.Length)
+                    {
+                        password1 = password1.Replace(password1[i], '*');
+                        i++;
+                    }
+
+                    Console.WriteLine("Success. Your password is " + password1);
+                }
+                else
+                {
+                    Console.WriteLine("Please, check you password. It doesn’t match");
+                }
+            }
 
             Console.ReadKey();
         }
