@@ -36,7 +36,7 @@ namespace Task20
                 sum = sum + arr[i];
             }
 
-            int mathMiddle = sum / arr.Length;
+            var mathMiddle = sum / arr.Length;
             Console.WriteLine(sum);
 
             Console.WriteLine("Arithmetic average is: " + mathMiddle);

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4193F687-A770-47B2-A174-A74B53D1890B}</ProjectGuid>
+    <ProjectGuid>{7F05C984-AAFD-4494-9FB4-E649DDFAC1CA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tasks_1_C</RootNamespace>
-    <AssemblyName>Tasks_1_C</AssemblyName>
+    <RootNamespace>cSharpTrainings1</RootNamespace>
+    <AssemblyName>cSharpTrainings1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

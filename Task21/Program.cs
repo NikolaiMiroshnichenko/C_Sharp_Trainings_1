@@ -11,7 +11,7 @@ namespace Task21
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Enter some value from from diaposon 0-12");
+            Console.WriteLine("Enter some value from from range 0-12");
             int.TryParse(Console.ReadLine(), out int f);
             if (f < 13)
             {

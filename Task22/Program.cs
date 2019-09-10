@@ -20,7 +20,7 @@ namespace Task22
 
             int a = 1;
             int b = 256;
-            int c = (a + b);
+            var c = (a + b);
 
             Console.WriteLine(c);
             Console.ReadKey();

@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task1._1
+namespace cSharpTrainings1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
         }
     }
 }

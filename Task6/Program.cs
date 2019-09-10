@@ -4,26 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_1._9
+namespace Task1._6
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("“How much money do you have?”");
-
+            Console.WriteLine("Enter your age");
             try
             {
-                double money = double.Parse(Console.ReadLine());
-                Console.WriteLine("You have " + money + " $");
+                int Age = int.Parse(Console.ReadLine());
+                Console.WriteLine("Age is " + Age);
             }
             catch (FormatException e)
             {
-                Console.WriteLine("“Please, enter a valid number”");
             }
-
-
+            
             Console.ReadKey();
+            float number = 1.3f;
         }
     }
 }

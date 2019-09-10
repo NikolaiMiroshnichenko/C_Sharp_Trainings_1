@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F3FBD5C-BDA4-4EAB-B227-634059BD1677}</ProjectGuid>
+    <ProjectGuid>{4193F687-A770-47B2-A174-A74B53D1890B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task_1._8</RootNamespace>
-    <AssemblyName>Task_1.8</AssemblyName>
+    <RootNamespace>Tasks1C</RootNamespace>
+    <AssemblyName>Tasks1C</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Tasks1C.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

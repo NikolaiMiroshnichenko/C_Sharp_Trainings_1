@@ -18,7 +18,7 @@ namespace Task24
             }
             else
 
-            if ((0 <= age) && (age <= 18) && (age != null))
+            if ((0 <= age) && (age <= 18))
             {
                 Console.WriteLine("Go play LoL, kid");
             }
