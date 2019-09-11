@@ -10,7 +10,7 @@ namespace Task26
     {
         enum DayOfWeek : int
         {
-            Mondey,
+            Mondey  = 1,
             Thuesday,
             Wendsday,
             Thursday,
@@ -21,6 +21,16 @@ namespace Task26
         static void Main(string[] args)
         {
             Console.WriteLine((int)DayOfWeek.Friday);
+
+            int.TryParse(Console.ReadLine(), out  int numberOfDays);
+            if (Enum.IsDefined(typeof(DayOfWeek), numberOfDays))
+            {
+                DayOfWeek enm = (DayOfWeek)numberOfDays;
+                Console.WriteLine(enm);
+            }
+            else Console.WriteLine("Wrong number of day");
+
+
             Console.ReadKey();
         }
     }
