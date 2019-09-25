@@ -24,7 +24,11 @@ namespace Task55
             point1.x = 1.5f;
             Vector1 point2 = new Vector1();
             point2.x = 3.2f;
-            
+            List<Vector1> list = new List<Vector1>();
+            for (int i=0; i<100001; i++)
+            {
+                list.Add(point1);
+            }
             vectorCalculate(point1.x, point2.x, out float distance);
 
             Console.WriteLine(distance);
